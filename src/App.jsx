@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <Home props="hola prop" />
-      <h1>App</h1>
     </>
   )
 }
