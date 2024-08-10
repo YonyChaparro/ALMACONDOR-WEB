@@ -1,15 +1,13 @@
 import { NavbarHome } from "./Navbar"
+import Image from 'react-bootstrap/Image';
 
 
 
-
-export const Home = ({ props }) => {
+export const Home = () => {
     return (
         <>
-            <NavbarHome />
-            <div>Alma Condor</div>
-            <div>{props}</div>
-            <button type="button" class="btn btn-primary">Primary</button>
+        <NavbarHome />
+        <Image src="/src/assets/fondo.png" fluid className="d-inline-block align-top"/>;
         </>
     )
 }

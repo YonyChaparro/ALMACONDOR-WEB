@@ -1,10 +1,27 @@
-
-.bg-me{
-  background-color: aqua;
-  
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
-.navbarLine .a{
-  color: white;
-  padding: auto;
+.navbar{
+  background-color: #fee5d2;
 }
+
+.logoAlmaCondor {
+  width: 150px;
+}
+
+#basic-navbar-nav a{
+  padding-left: 39px;
+}
+
+.padding-navbar{
+  padding-left: 39px;
+}
+
+.fondoInicio{
+  background-size: cover;
+}
+
+
