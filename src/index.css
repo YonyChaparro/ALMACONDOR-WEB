@@ -1,3 +1,26 @@
+
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+
+body {
+	background-color: salmon;
+}
+
+.navbarLine .a {
+	color: white;
+	padding: auto;
+}
+
+.vh100m {
+	height: calc(100vh - 56px);
+}
+
+.icon {
+	font-size: 2rem;
+	color: cornflowerblue;
+}
+
+.imgPlayer img{
+	border: 3px solid black;
 * {
 	font-family: "Poppins", sans-serif;
 	font-weight: 600;
