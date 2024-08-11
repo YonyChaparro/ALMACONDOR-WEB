@@ -1,20 +1,17 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 
 export const NavbarHome = () => {
-    return (
-    <Navbar id="navbar" expand="lg">
+  return (
+    <Navbar id="navbar nav-transparent" expand="lg">
       <Container>
-
         <Navbar.Brand href="#inicio" >
-        <img  src="/src/assets/Logos/Letra alma condor en transparente (1).png" alt="Alma Condor logo" id="logoAlmaCondor" className="logoAlmaCondor"/>
+          <img src="/src/assets/Logos/Letra alma condor en transparente (1).png" alt="Alma Condor logo" className="logoAlmaCondor" />
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        <Navbar.Collapse id="basic-navbar-nav" >
-          <Nav className="me-auto d-flex aling-items-center justify-content-center">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse className="d-flex justify-content-center">
+          <Nav>
             <Nav.Link href="#presentaciones">PRESENTACIONES</Nav.Link>
             <Nav.Link href="#galeria">GALERÍA</Nav.Link>
             <Nav.Link href="#blog-andino">BLOG ANDINO</Nav.Link>
@@ -25,6 +22,6 @@ export const NavbarHome = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    );
+  );
 }
 

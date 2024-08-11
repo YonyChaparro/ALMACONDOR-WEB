@@ -1,27 +1,13 @@
-*{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+* {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
 }
 
-.navbar{
-  background-color: #fee5d2;
+body {
+	background-image: url("./assets/fondo.png");
 }
 
 .logoAlmaCondor {
-  width: 150px;
+	width: 150px;
 }
-
-#basic-navbar-nav a{
-  padding-left: 39px;
-}
-
-.padding-navbar{
-  padding-left: 39px;
-}
-
-.fondoInicio{
-  background-size: cover;
-}
-
-
