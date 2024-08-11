@@ -4,8 +4,7 @@ import { NavbarHome } from "./Navbar"
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-
-export const Home = ({ props }) => {
+export const Home = () => {
     return (
         <>
             <NavbarHome />

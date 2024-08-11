@@ -4,9 +4,11 @@ function App() {
 
   return (
     <>
-      <Home props="hola prop" />
+      <Home/>
     </>
   )
 }
 
 export default App
+
+
