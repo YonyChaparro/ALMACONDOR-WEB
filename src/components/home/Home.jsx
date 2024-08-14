@@ -12,13 +12,11 @@ export const Home = () => {
                 <Row >
                     <Col sm={8}>{/*yoni*/}
                         <div>Alma Condor</div>
-                        <div>{props}</div>
-                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" className="btn btn-primary">Primary</button>
                     </Col>
-                    <Col sm={4} className="d-flex align-items-center justify-content-center vh100m">
+                    <Col sm={4} className="d-flex align-items-center justify-content-center vh100 p-0 m-0">
                         <CardPlayer />
                     </Col>
-
                 </Row>
             </Container>
         </>

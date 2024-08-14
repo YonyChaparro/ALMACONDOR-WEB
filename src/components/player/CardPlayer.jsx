@@ -1,19 +1,16 @@
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Card, Image } from 'react-bootstrap';
 import { Player } from './Player';
+
 
 export const CardPlayer = () => {
     return (
-        <Card style={{ width: '18rem' }} className='bg-transparent '>
-            <Card.Img className='p-3 imgPlayer' variant="top" src="../../../legacy/src/fondo.png" />
-            <Card.Body className=''>
-                <Card.Title className='text-center'>Title</Card.Title>
-                {/* <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                </Card.Text> */}
+        <Card style={{ width: '' }} className='round-me w-75'>
+            <div className='square p-4 '>
+                <Image className='square-img' rounded={true} fluid={true} src="../../../legacy/src/fondo.png" />
+            </div>
+            <Card.Body className='pt-0'>
                 <Player />
-                <Button variant="primary">Go somewhere</Button>
             </Card.Body>
         </Card>
     );
