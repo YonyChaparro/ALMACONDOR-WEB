@@ -11,9 +11,8 @@ export const Home = () => {
             <Container>
                 <Row >
                     <Col sm={8}>{/*yoni*/}
-                        <div>Alma Condor</div>
-                        <div>{props}</div>
-                        <button type="button" class="btn btn-primary">Primary</button>
+                        <div></div>
+                        <div></div>
                     </Col>
                     <Col sm={4} className="d-flex align-items-center justify-content-center vh100m">
                         <CardPlayer />
