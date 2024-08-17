@@ -4,7 +4,9 @@ import { Stack, ListGroup, ProgressBar, Row, Col } from 'react-bootstrap';
 export const ProgessBar = ({ currentTime, duration, handleProgressClick }) => {
     return (
         <>
-            <span className="">Song Name</span>
+            <div class="d-flex">
+                <span class="mx-auto">Song Name</span>
+            </div>
             <Row className="align-items-center">
                 <Col className="d-flex justify-content-center " style={{
                     maxWidth: "20%"

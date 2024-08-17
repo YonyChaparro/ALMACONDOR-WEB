@@ -43,6 +43,11 @@
 	border: none;
 }
 
+.transparent button:hover {
+	color: #fee5d2;
+	background-color: transparent;
+}
+
 .imgPlayer img {
 	border-radius: 0.5em;
 }
@@ -64,6 +69,6 @@ body {
 .progress-bar {
 	background-color: black;
 }
-.font-medium span{
-	font-size: medium
+.font-medium span {
+	font-size: medium;
 }
