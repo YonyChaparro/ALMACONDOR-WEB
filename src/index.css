@@ -29,8 +29,10 @@ body {
 }
 
 body {
-  background-color: #fee5d2;
-	background-image: url("./assets/fondo.png");
+	background-color: #fee5d2;
+	background-image: url("./assets/fondoVectoriao.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .logoAlmaCondor {
