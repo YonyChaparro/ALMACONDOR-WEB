@@ -9,13 +9,18 @@ export const Home = () => {
             <NavbarHome />
             <Container>
                 <Row >
+                    <Col sm={8}>{/*yoni*/}
+                        <div>Alma Condor</div>
+                        <button type="button" className="btn btn-primary">Primary</button>
+                    </Col>
+                    <Col sm={4} className="d-flex align-items-center justify-content-center vh100 p-0 m-0">
+                        <CardPlayer  />
                     <Col sm={8}>
                     <ImgHomePelaos/>
                     </Col>
                     <Col sm={4} className="d-flex align-items-center justify-content-center vh100m">
                         <CardPlayer/>
                     </Col>
-
                 </Row>
             </Container>
         </>
