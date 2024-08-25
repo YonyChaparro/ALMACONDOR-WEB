@@ -59,7 +59,7 @@
 
 body {
 	background-color: #fee5d2;
-	background-image: url("./assets/fondoVectoriao.svg");
+	background-image: url("./assets/FondoLargo.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -73,4 +73,103 @@ body {
 }
 .font-medium span {
 	font-size: medium;
+}
+
+/*Hover del navbar*/
+
+.navbar-toggler{
+}
+.navbar-toggler span{
+}
+@media (max-width:992px){
+	#navbar-nav-Yony a:hover{
+		color: #fff;
+		width: 200px;
+		text-align: center;
+		top: 0;
+		/* bottom: 0; */
+		z-index: 0;
+		background: #290f38;
+		border-radius: 30px;
+	}
+}
+
+@media (min-width:992px){
+	#navbar-nav-Yony{
+		position: relative;
+		/*background: #69bab9;*/
+		border-radius: 30px;
+		font-size: 0;
+	}
+	#navbar-nav-Yony a{
+		font-size: 17px;
+		text-transform: uppercase;
+		color: #290f38;
+		text-decoration: none;
+		line-height: 50px;
+		position: relative;
+		z-index: 1;
+		display: inline-block;
+		text-align: center;
+	}
+	#navbar-nav-Yony .animation{
+		position:absolute;
+		height: 100%;
+		/* height: 5px; */
+		top: 0;
+		/* bottom: 0; */
+		z-index: 0;
+		background: #290f38;
+		border-radius: 50px;
+		transition: all .5s ease 0s;
+	}
+
+	#navbar-nav-Yony a:hover {
+		color: rgb(255, 255, 255);
+		transition: color 0.3s ease;
+	}
+
+	#navbar-nav-Yony a:nth-child(1){
+		width: 180px;
+	}
+	#navbar-nav-Yony a:nth-child(1):hover~.animation{
+		width: 180px;
+		left: 0;
+	}
+	#navbar-nav-Yony a:nth-child(2){
+		width: 200px;
+	}
+	#navbar-nav-Yony a:nth-child(2):hover~.animation{
+		width: 110px;
+		left: 225px;
+	}
+	#navbar-nav-Yony a:nth-child(3){
+		width: 180px;
+	}
+	#navbar-nav-Yony a:nth-child(3):hover~.animation{
+		width: 150px;
+		left: 395px;
+	}
+	#navbar-nav-Yony a:nth-child(4){
+		width: 190px;
+	}
+	#navbar-nav-Yony a:nth-child(4):hover~.animation{
+		width: 170px;
+		left: 570px;
+	}
+	#navbar-nav-Yony a:nth-child(5){
+		width: 160px;
+	}
+	#navbar-nav-Yony a:nth-child(5):hover~.animation{
+		width: 130px;
+		left: 765px;
+	}
+
+	#navbar-nav-Yony a:nth-child(6){
+		width: 140px;
+	}
+	#navbar-nav-Yony a:nth-child(6):hover~.animation{
+		width: 140px;
+		left: 909px;
+	}
 }
