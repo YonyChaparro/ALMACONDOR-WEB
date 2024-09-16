@@ -5,8 +5,12 @@ function App() {
 
   return (
     <>
-      <Home/>
-      <SectionConciertos/>
+      <section id="home" className="section-fullscreen">
+        <Home />
+      </section>
+      <section id="presentation" className="section-fullscreen">
+        <SectionConciertos />
+      </section>
     </>
   )
 }
