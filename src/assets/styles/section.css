@@ -1,0 +1,5 @@
+.section-fullscreen {
+	min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+	display: flex;
+	align-items: center; /* Centra verticalmente el contenido */
+}
