@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { TarjetaConciertos } from "./Tarjeta";
+import { ConcertCard } from "./ConcertCard";
 
 export const SectionConciertos = () => {
   return (
@@ -7,15 +7,14 @@ export const SectionConciertos = () => {
       <Container>
         <Row>
           <Col sm={8}>
-            <TarjetaConciertos />
+            <ConcertCard />
           </Col>
           <Col
             sm={4}
             className="d-flex align-items-center justify-content-center"
-          >
-          </Col>
+          ></Col>
         </Row>
       </Container>
     </>
-  )
-}
+  );
+};
