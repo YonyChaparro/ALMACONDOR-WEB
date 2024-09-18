@@ -5,8 +5,7 @@ export const ImgHomePelaos = () => {
         <div className="text-center" style={{
 
         }}>
-            <Image src="/src/assets/logoHome.webp" fluid width={600}  />
-            <Image src="/src/assets/descarga.webp" fluid />
+            <Image src="/src/assets/backgroundHome.svg" fluid />
         </div>
     );
 }
