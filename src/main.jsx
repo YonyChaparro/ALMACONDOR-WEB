@@ -5,6 +5,7 @@ import './index.css'
 import './assets/styles/section.css'
 import './assets/styles/navbar.css'
 import './assets/styles/tarjetaConciertos.css'
+import './assets/styles/socialButtons.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

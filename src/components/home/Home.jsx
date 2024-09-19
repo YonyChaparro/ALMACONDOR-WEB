@@ -1,4 +1,4 @@
-import { ImgHomePelaos } from "./imgHome";
+import { ImgHome } from "./ImgHome";
 import { CardPlayer } from "../player/CardPlayer";
 import { NavbarHome } from "./Navbar";
 import { Container, Row, Col } from "react-bootstrap";
@@ -10,7 +10,7 @@ export const Home = () => {
             <Container>
                 <Row>
                     <Col sm={8}>
-                        <ImgHomePelaos />
+                        <ImgHome />
                     </Col>
                     <Col
                         sm={4}

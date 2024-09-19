@@ -1,5 +1,6 @@
 import { Home } from "./components/home/Home"
 import { SectionConciertos } from "./components/conciertos/sectionConciertos"
+import SocialButtons from "./components/floatingButtons/SocialButtons"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <section id="presentation" className="section-fullscreen">
         <SectionConciertos />
       </section>
+      <SocialButtons />
     </>
   )
 }
