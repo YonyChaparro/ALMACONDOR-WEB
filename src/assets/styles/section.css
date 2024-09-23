@@ -3,3 +3,45 @@
 	display: flex;
 	align-items: center; /* Centra verticalmente el contenido */
 }
+
+/* carousel-item clase de boostrap */
+.carousel-item img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* MEDIA QUERIES */
+
+.gallery {
+	display: none;
+}
+@media (min-width: 768px) {
+	.carrousel {
+		display: none;
+	}
+
+	.gallery {
+		display: block;
+	}
+}
+.player {
+	display: none;
+}
+@media (min-width: 768px) {
+	.playermini {
+		display: none !important;
+	}
+
+	.player {
+		display: block;
+	}
+}
+/* ANIMACIONES */
+.hover-image {
+	transition: transform 0.3s ease;
+	cursor: pointer;
+}
+.hover-image:hover {
+	transform: scale(1.5);
+}

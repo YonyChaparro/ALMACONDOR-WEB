@@ -9,11 +9,10 @@ export const Home = () => {
             <NavbarHome />
             <Container>
                 <Row>
-                    <Col sm={8}>
+                    <Col xs={12} md={8}>
                         <ImgHome />
                     </Col>
-                    <Col
-                        sm={4}
+                    <Col xs={12} md={4}
                         className="d-flex align-items-center justify-content-center vh100m"
                     >
                         <CardPlayer />
