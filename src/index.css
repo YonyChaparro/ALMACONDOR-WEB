@@ -1,59 +1,25 @@
 @import url("bootstrap-icons/font/bootstrap-icons.css");
-
-.navbarLine .a {
-	color: white;
-	padding: auto;
-}
-.vh100m {
-	/* height: calc(100vh - 56px); */
-}
-
-.icon button {
-	font-size: 2rem;
+:root {
+	--primary: #fee5d2;
+	--secondary: #151b47;
+	--success: #d4edda;
+	--danger: #f8d7da;
+	--warning: #fff3cd;
+	--info: #38a3ac;
+	--light: #f8d7da;
+	--dark: #343a40;
 }
 
-.round-me {
-	background-color: rgba(0, 0, 0, 0.175);
-}
-.square {
-	aspect-ratio: 1/1;
-}
-.square-img {
-	object-fit: fill;
-	height: 100%;
-	width: 100%;
-}
-.icon-player i {
-	font-size: 3rem;
-}
-.btn.icon-player i:hover {
-	color: #fee5d2;
-}
-.icon {
-	font-size: 1.5rem;
-}
-.btn.icon i:hover {
-	color: #fee5d2;
-}
-
-.transparent {
-	background: transparent;
-	background-color: transparent;
-	border: none;
-}
-
-.transparent button:hover {
-	color: #fee5d2;
-	background-color: transparent;
-}
-
-.imgPlayer img {
-	border-radius: 0.5em;
-}
 * {
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
 	font-style: normal;
+	/* color: var(--dark); */
+}
+
+.navbarLine .a {
+	color: white;
+	padding: auto;
 }
 
 body {

@@ -19,15 +19,15 @@ export const Player = () => {
     return (
         <>
             <Controls />
-            <ListGroup className="transparent p-0 font-medium">
-                <ListGroup.Item className="d-flex p-0 transparent icon align-items-center" action>
+            <ListGroup className="p-0 font-medium list-player">
+                <ListGroup.Item className="d-flex p-0 icon align-items-center" action>
                     <i className="px-2 bi bi-play-circle"></i>
                     <span>Cras justo odio</span>
                 </ListGroup.Item>
-                <ListGroup.Item className="d-flex p-0 transparent icon align-items-center" action>
+                <ListGroup.Item className="d-flex p-0 icon align-items-center" action>
                     <i className="px-2 bi bi-play-circle"></i><span>Dapibus ac facilisis in</span>
                 </ListGroup.Item>
-                <ListGroup.Item className="d-flex p-0 transparent icon align-items-center" action>
+                <ListGroup.Item className="d-flex p-0 icon align-items-center" action>
                     <i className="px-2 bi bi-play-circle"></i><span>Morbi leo risus</span>
                 </ListGroup.Item>
             </ListGroup>

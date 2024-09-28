@@ -53,7 +53,7 @@ export const Controls = () => {
             ></audio>
             <ProgessBar currentTime={currentTime} duration={duration} handleProgressClick={handleProgressClick} />
 
-            <Stack className="justify-content-center" direction="horizontal">
+            <Stack className="justify-content-center controls" direction="horizontal">
                 <button className="btn icon p-0 m-0">
                     <i className=" bi-skip-start-circle"></i>
                 </button>

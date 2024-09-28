@@ -13,7 +13,7 @@ export const Home = () => {
                         <ImgHome />
                     </Col>
                     <Col xs={12} md={4}
-                        className="d-flex align-items-center justify-content-center vh100m"
+                        className=""
                     >
                         <CardPlayer />
                     </Col>

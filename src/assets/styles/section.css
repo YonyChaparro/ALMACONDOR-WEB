@@ -1,7 +1,14 @@
 .section-fullscreen {
 	min-height: 100vh; /* Ocupa toda la altura de la pantalla */
 	display: flex;
-	align-items: center; /* Centra verticalmente el contenido */
+	align-items: center;
+}
+
+/* Media query para pantallas con menor altura */
+@media (max-height: 800px) {
+	.section-fullscreen {
+		padding: 20px; /* Añade un padding para darle espacio al contenido */
+	}
 }
 
 /* carousel-item clase de boostrap */
@@ -34,7 +41,10 @@
 	}
 
 	.player {
-		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
 	}
 }
 /* ANIMACIONES */
