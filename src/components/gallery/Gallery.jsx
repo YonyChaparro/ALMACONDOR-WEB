@@ -9,12 +9,6 @@ const images = [
     "https://via.placeholder.com/230",
     "https://via.placeholder.com/230",
     "https://via.placeholder.com/230",
-    "https://via.placeholder.com/230",
-    "https://via.placeholder.com/230",
-    "https://via.placeholder.com/230",
-    "https://via.placeholder.com/230",
-    "https://via.placeholder.com/230",
-    "https://via.placeholder.com/230",
 ]
 
 export const Gallery = () => {
