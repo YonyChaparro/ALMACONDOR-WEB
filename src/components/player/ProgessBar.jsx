@@ -4,14 +4,14 @@ import { Stack, ListGroup, ProgressBar, Row, Col } from 'react-bootstrap';
 export const ProgessBar = ({ currentTime, duration, handleProgressClick }) => {
     return (
         <>
-            <div class="d-flex">
-                <span class="mx-auto">Song Name</span>
+            <div className="d-flex">
+                <span className="mx-auto">Song Name</span>
             </div>
-            <Row className="align-items-center">
+            <Row className="align-items-center counters">
                 <Col className="d-flex justify-content-center " style={{
                     maxWidth: "20%"
                 }}>
-                    <span className="" style={{ fontSize: ".5rem" }}>{Math.floor(currentTime / 60)}:{('0' + Math.floor(currentTime % 60)).slice(-2)}</span>
+                    <span className="" >{Math.floor(currentTime / 60)}:{('0' + Math.floor(currentTime % 60)).slice(-2)}</span>
                 </Col>
                 <Col className="align-items-center px-0">
                     {/* <div className="progress" onClick={handleProgressClick} role="progressbar" style={{ height: ".25rem" }} aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
@@ -26,7 +26,7 @@ export const ProgessBar = ({ currentTime, duration, handleProgressClick }) => {
                 <Col className="d-flex justify-content-center " style={{
                     maxWidth: "20%"
                 }}>
-                    <span className="" style={{ fontSize: ".5rem" }}>{Math.floor(duration / 60)}:{('0' + Math.floor(duration % 60)).slice(-2)}</span>
+                    <span className="" >{Math.floor(duration / 60)}:{('0' + Math.floor(duration % 60)).slice(-2)}</span>
                 </Col>
             </Row>
         </>

@@ -1,8 +1,8 @@
 import Image from 'react-bootstrap/Image';
 
-export const ImgHomePelaos = () => {
+export const ImgHome = () => {
     return (
-        <div className="text-center" style={{
+        <div className="mx-auto p-lg-5" style={{
 
         }}>
             <Image src="/src/assets/backgroundHome.svg" fluid />
