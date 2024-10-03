@@ -7,11 +7,11 @@ export const SectionConciertos = () => {
     <>
       <Container>
         <Row>
-          <Col sm={6}>
+          <Col xs={12} md={8}>
             <ConcertCard />
           </Col>
-          <Col sm={6}>
-          {/* <PosterPresentation /> */}
+          <Col xs={12} md={8}>
+            {/* <PosterPresentation /> */}
           </Col>
         </Row>
       </Container>

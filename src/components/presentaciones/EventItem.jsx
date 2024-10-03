@@ -72,12 +72,12 @@ export const EventItem = () => {
         return (
           <div key={event.id}>
             <div className="ItemsConciertos">
-              <Card.Text className="date">
+              <Card.Text as={'span'} className="date">
                 <h1 className="day">{event.day}</h1>
                 <h6 className="month">{event.month}</h6>
               </Card.Text>
-              <Card.Text className="city">
-                <h6>{event.city}</h6>
+              <Card.Text as="h6" className="city">
+                {event.city}
               </Card.Text>
               <Card.Text className="mapLink">
                 <h6 className="address">{event.address}</h6>
