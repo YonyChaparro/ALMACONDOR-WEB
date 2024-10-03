@@ -1,4 +1,3 @@
-import React from 'react';
 import { ButtonGroup, Button } from 'react-bootstrap';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";

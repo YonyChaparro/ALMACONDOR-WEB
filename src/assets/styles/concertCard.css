@@ -1,5 +1,8 @@
 .cardBodyConciertos {
   color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .cardBodyConciertos h2 {

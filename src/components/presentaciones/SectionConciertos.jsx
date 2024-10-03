@@ -1,18 +1,18 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ConcertCard } from "./ConcertCard";
+// import { PosterPresentation } from "./PosterPresentation";
 
 export const SectionConciertos = () => {
   return (
     <>
       <Container>
         <Row>
-          <Col sm={8}>
+          <Col sm={6}>
             <ConcertCard />
           </Col>
-          <Col
-            sm={4}
-            className="d-flex align-items-center justify-content-center"
-          ></Col>
+          <Col sm={6}>
+          {/* <PosterPresentation /> */}
+          </Col>
         </Row>
       </Container>
     </>

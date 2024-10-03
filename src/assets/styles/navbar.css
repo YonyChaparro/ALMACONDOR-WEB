@@ -1,8 +1,16 @@
+#navbarContainer {
+	backdrop-filter: blur(10px);
+	border-bottom: 2px solid rgba(255, 255, 255, .1);
+	margin: 0;
+	padding-left: 50%;
+	padding-right: 50%;
+}
 
 /*Hover del navbar*/
 
-@media (max-width:992px){
-	#navbar-nav-Yony a:hover{
+
+@media (max-width:991px){
+	#navbar-nav-animation a:hover{
 		color: #fff;
 		width: 200px;
 		text-align: center;
@@ -15,13 +23,13 @@
 }
 
 @media (min-width:992px){
-	#navbar-nav-Yony{
+	#navbar-nav-animation{
 		position: relative;
 		/*background: #69bab9;*/
 		border-radius: 30px;
 		font-size: 0;
 	}
-	#navbar-nav-Yony a{
+	#navbar-nav-animation a{
 		font-size: 17px;
 		text-transform: uppercase;
 		color: #290f38;
@@ -32,7 +40,7 @@
 		display: inline-block;
 		text-align: center;
 	}
-	#navbar-nav-Yony .animation{
+	#navbar-nav-animation .animation{
 		position:absolute;
 		height: 100%;
 		/* height: 5px; */
@@ -44,52 +52,129 @@
 		transition: all .5s ease 0s;
 	}
 
-	#navbar-nav-Yony a:hover {
+	#navbar-nav-animation a:hover {
 		color: rgb(255, 255, 255);
 		transition: color 0.3s ease;
 	}
 
-	#navbar-nav-Yony a:nth-child(1){
+	#navbar-nav-animation a:nth-child(1){
 		width: 180px;
 	}
-	#navbar-nav-Yony a:nth-child(1):hover~.animation{
+	#navbar-nav-animation a:nth-child(1):hover~.animation{
 		width: 180px;
 		left: 0;
 	}
-	#navbar-nav-Yony a:nth-child(2){
+	#navbar-nav-animation a:nth-child(2){
 		width: 200px;
 	}
-	#navbar-nav-Yony a:nth-child(2):hover~.animation{
+	#navbar-nav-animation a:nth-child(2):hover~.animation{
 		width: 110px;
 		left: 225px;
 	}
-	#navbar-nav-Yony a:nth-child(3){
+	#navbar-nav-animation a:nth-child(3){
 		width: 180px;
 	}
-	#navbar-nav-Yony a:nth-child(3):hover~.animation{
+	#navbar-nav-animation a:nth-child(3):hover~.animation{
 		width: 150px;
 		left: 395px;
 	}
-	#navbar-nav-Yony a:nth-child(4){
+	#navbar-nav-animation a:nth-child(4){
 		width: 190px;
 	}
-	#navbar-nav-Yony a:nth-child(4):hover~.animation{
+	#navbar-nav-animation a:nth-child(4):hover~.animation{
 		width: 170px;
 		left: 570px;
 	}
-	#navbar-nav-Yony a:nth-child(5){
+	#navbar-nav-animation a:nth-child(5){
 		width: 160px;
 	}
-	#navbar-nav-Yony a:nth-child(5):hover~.animation{
+	#navbar-nav-animation a:nth-child(5):hover~.animation{
 		width: 130px;
 		left: 765px;
 	}
 
-	#navbar-nav-Yony a:nth-child(6){
+	#navbar-nav-animation a:nth-child(6){
 		width: 140px;
 	}
-	#navbar-nav-Yony a:nth-child(6):hover~.animation{
+	#navbar-nav-animation a:nth-child(6):hover~.animation{
 		width: 140px;
 		left: 909px;
+	}
+}
+
+
+
+/*ghjhgfds*/
+
+@media (max-width:1399px) and (min-width:992px) {
+
+	.basic-navbar-nav{
+	}
+	#navbar-nav-animation a{
+		font-size: 14px;
+	}
+	#navbar-nav-animation{
+		position: relative;
+		border-radius: 30px;
+		font-size: 0;
+	}
+
+	#navbar-nav-animation .animation{
+		position:absolute;
+		height: 100%;
+		top: 0;
+		z-index: 0;
+		background: #290f38;
+		border-radius: 50px;
+		transition: all .5s ease 0s;
+	}
+
+	#navbar-nav-animation a:hover {
+		color: rgb(255, 255, 255);
+		transition: color 0.3s ease;
+	}
+
+	#navbar-nav-animation a:nth-child(1){
+		width: 140px;
+	}
+	#navbar-nav-animation a:nth-child(1):hover~.animation{
+		width: 140px;
+		left: 0;
+	}
+	#navbar-nav-animation a:nth-child(2){
+		width: 80px;
+	}
+	#navbar-nav-animation a:nth-child(2):hover~.animation{
+		width: 80px;
+		left: 140px;
+	}
+	#navbar-nav-animation a:nth-child(3){
+		width: 120px;
+	}
+	#navbar-nav-animation a:nth-child(3):hover~.animation{
+		width: 120px;
+		left: 220px;
+	}
+	#navbar-nav-animation a:nth-child(4){
+		width: 130px;
+	}
+	#navbar-nav-animation a:nth-child(4):hover~.animation{
+		width: 130px;
+		left: 340px;
+	}
+	#navbar-nav-animation a:nth-child(5){
+		width: 100px;
+	}
+	#navbar-nav-animation a:nth-child(5):hover~.animation{
+		width: 100px;
+		left: 470px;
+	}
+
+	#navbar-nav-animation a:nth-child(6){
+		width: 100px;
+	}
+	#navbar-nav-animation a:nth-child(6):hover~.animation{
+		width: 103px;
+		left: 570px;
 	}
 }

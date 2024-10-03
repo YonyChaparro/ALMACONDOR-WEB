@@ -3,7 +3,7 @@ import { EventItem } from "./EventItem";
 
 export const ConcertCard = () => {
   return (
-    <div className="ConcertCard">
+    <div className="ConcertCard" >
       <Card style={{ width: "35rem" }} className="transparent d-none d-sm-block">
         <Card.Body className="cardBodyConciertos">
           <Card.Title>
