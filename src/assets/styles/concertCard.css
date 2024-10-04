@@ -1,20 +1,32 @@
-.cardBodyConciertos{
-  color: #FFF;
+.cardBodyConciertos {
+	color: #fff;
 }
 
-.ItemsConciertos div{
-  align-items: center;
+/* .ItemsConciertos div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+.mapLink {
+	color: #fff;
 }
 
-.mapLink a{
-  color: #FFF;
+.cardBodyConciertos h2 {
+	text-align: center;
 }
 
-.cardBodyConciertos h2{
-  text-align: center;
+.ItemsConciertos .Notification {
+	/* padding-top: 15%;
+  padding-bottom: 15%; */
 }
 
-.ItemsConciertos .Notification{
-  padding-top: 15%;
-  padding-bottom: 15%;
+.mapLink {
+	text-align: center;
+}
+
+@media (max-width: 992px) {
+	.notification {
+		width: 100%;
+	}
 }

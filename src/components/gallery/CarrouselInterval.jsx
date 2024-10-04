@@ -12,12 +12,12 @@ const images = [
     "https://via.placeholder.com/230",
     "https://via.placeholder.com/230",
 ]
-export const CarrouselInterval = () => {
+export const CarrouselInterval = ({ timeInterval, classname, imagenes, animation }) => {
     return (
-        <Carousel className='' >
+        <Carousel className={classname}>
             {
                 images.map((image, index) => (
-                    <Carousel.Item key={index} interval={1000}>
+                    <Carousel.Item key={index} interval={timeInterval ? timeInterval : 1000}>
                         <Image src={image} fluid className='' />
                     </Carousel.Item>))
             }
