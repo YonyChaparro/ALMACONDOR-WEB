@@ -1,7 +1,7 @@
-import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from 'components/ExampleCarouselImage';
+import Carousel from "react-bootstrap/Carousel";
+import ExampleCarouselImage from "components/ExampleCarouselImage";
 
-function PosterPresentation() {
+export const PosterPresentation = () => {
   return (
     <Carousel>
       <Carousel.Item interval={1000}>
@@ -29,6 +29,4 @@ function PosterPresentation() {
       </Carousel.Item>
     </Carousel>
   );
-}
-
-export default PosterPresentation;
+};

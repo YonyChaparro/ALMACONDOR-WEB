@@ -1,4 +1,9 @@
 import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from 'react-bootstrap/Button';
+
 
 const events = [
   {
@@ -70,31 +75,28 @@ export const EventItem = () => {
     <>
       {events.map((event) => {
         return (
-          <div key={event.id}>
-            <div className="ItemsConciertos">
-              <Card.Text as={'span'} className="date">
-                <h1 className="day">{event.day}</h1>
-                <h6 className="month">{event.month}</h6>
-              </Card.Text>
-              <Card.Text as="h6" className="city">
-                {event.city}
-              </Card.Text>
-              <Card.Text className="mapLink">
-                <h6 className="address">{event.address}</h6>
-                <Card.Link href={event.mapLink} target="_blank">
-                  Ver en el Mapa
-                </Card.Link>
-              </Card.Text>
-              <Card.Link
-                className="Notification"
-                target="_blank"
-                href={event.notification}
-              >
-                Notificarme
-              </Card.Link>
-            </div>
+          <Container key={event.id}>
+            <Container className="ItemsConciertos">
+              <Row>
+                <Col className="date">
+                  <h1 className="day">{event.day}</h1>
+                  <h6 className="month">{event.month}</h6>
+                </Col>
+                <Col className="city">{event.city}</Col>
+                <Col className="mapLink" sm={4} >
+                  <h6 className="address">{event.address}</h6>
+                  <Card.Link href={event.mapLink} target="_blank">
+                    Ver en el Mapa
+                  </Card.Link>
+                </Col>
+                <Col>
+                  <Button variant="outline-warning" className="Notification"
+                  href={event.notification}>Notificarme</Button>
+                </Col>
+              </Row>
+            </Container>
             <hr className="titleLine"></hr>
-          </div>
+          </Container>
         );
       })}
     </>

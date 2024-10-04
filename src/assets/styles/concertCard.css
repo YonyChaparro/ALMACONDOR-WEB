@@ -1,90 +1,20 @@
-.cardBodyConciertos {
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+.cardBodyConciertos{
+  color: #FFF;
 }
 
-.cardBodyConciertos h2 {
+.ItemsConciertos div{
+  align-items: center;
+}
+
+.mapLink a{
+  color: #FFF;
+}
+
+.cardBodyConciertos h2{
   text-align: center;
 }
 
-.ItemsConciertos {
-  display: flex;
-  justify-content: space-between;
-  place-items: center;
-  padding: 0;
-}
-
-.ItemsConciertos p {
-  padding: 10px;
-}
-.date {
-  display: flex;
-  padding-right: 0px;
-  margin: 0;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-.month {
-  padding-left: 1px;
-  padding-top: 22px;
-  margin-bottom: 0px;
-}
-
-.city {
-  margin-bottom: 4px;
-  padding-inline: 0px;
-}
-
-.mapLink .card-text {
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-bottom: 0px;
-}
-
-.address {
-  font-weight: 400;
-}
-
-.Notification .card-link {
-  font-weight: 300;
-}
-
-.cardBodyConciertos a {
-  color: white;
-}
-
-.titleLine {
-  color: #ffffff;
-  width: 100%;
-  padding: 0%;
-  margin: 0%;
-}
-
-.card-text .month {
-  padding-bottom: 0;
-}
-
-.Notification {
-  width: 130px;
-  height: 60px;
-  display: grid;
-  place-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.cardBodyConciertos .Notification {
-  text-decoration: none;
-  color: #efb000;
-  font-weight: 250;
-  transition: background-color 0.2s ease-in-out;
-  border-radius: 8px;
-}
-
-.cardBodyConciertos .Notification:hover {
-  background-color: #efb000;
-  color: #002c45;
-  transition: background-color 0.2s ease-in-out;
+.ItemsConciertos .Notification{
+  padding-top: 15%;
+  padding-bottom: 15%;
 }

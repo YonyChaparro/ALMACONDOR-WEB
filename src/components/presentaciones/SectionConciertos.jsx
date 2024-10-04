@@ -11,7 +11,7 @@ export const SectionConciertos = () => {
             <ConcertCard />
           </Col>
           <Col xs={12} md={8}>
-            {/* <PosterPresentation /> */}
+          {/* <PosterPresentation /> */}
           </Col>
         </Row>
       </Container>
